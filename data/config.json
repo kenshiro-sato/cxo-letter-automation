@@ -1,0 +1,9 @@
+{
+  "claude_api_key": "",
+  "perplexity_api_key": "",
+  "tracking_sheet_id": "",
+  "drive_folder_id": "",
+  "letter_template": "templates/letter_template.md",
+  "receipt_template": "templates/receipt_template.md",
+  "output_dir": "output"
+}

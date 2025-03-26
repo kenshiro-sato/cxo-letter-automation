@@ -1,0 +1,27 @@
+# API連携
+anthropic>=0.49.0
+openai>=1.66.5
+perplexity-api>=0.1.0
+
+# データ処理
+pandas>=2.1.0
+
+# Google連携 
+google-api-python-client>=2.85.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.0.0
+gspread>=5.10.0
+
+# PDF生成
+markdown>=3.4.3
+weasyprint>=59.0
+
+# GUI
+tk>=0.1.0
+
+# パッケージング
+pyinstaller>=5.13.0
+
+# その他の依存関係
+typing_extensions>=4.12.2
+pydantic>=2.10.6
