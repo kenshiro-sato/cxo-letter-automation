@@ -172,3 +172,126 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 仮想環境
+venv/
+env/
+ENV/
+.env
+
+# API鍵・機密情報
+api_keys.json
+credentials.json
+token.json
+*.pem
+client_secret*.json
+*.key
+
+# 出力ディレクトリ
+output/
+results/
+
+# macOS関連
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows関連
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# IDE・エディタ設定
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# ログファイル
+*.log
+log/
+logs/
+
+# ビルド関連
+*.spec
+build.log
+build-stamp
+*.pyc
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+htmlcov/
+
+# 一時ファイル
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 自動生成ファイル
+generated/
+*.gz
+*.zip
+*.tar
+*.rar
+
+# 特定のプロジェクトファイル
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Google関連
+sheets.googleapis.com-python.json
+client_secrets.json
+
+# データフォルダ（configは除外しない）
+data/*
+!data/config.json
